@@ -26,7 +26,7 @@ import config
 from logging_utils import get_logger
 
 def ler_pdf(caminho):
-    """Lê o texto de um PDF usando pdfplumber (com fallback para PyPDF2)."""
+    """Lê o texto de um PDF usando pdfplumber, PyPDF2 ou OCR (para PDFs de imagem)."""
     # Verifica se o arquivo existe
     if not Path(caminho).exists():
         print(f"❌ Arquivo não encontrado: {caminho}")
@@ -49,7 +49,7 @@ def ler_pdf(caminho):
                 print(f"✓ Total extraído com pdfplumber: {len(texto)} caracteres")
                 return texto
             else:
-                print("⚠️  pdfplumber não extraiu nenhum texto")
+                print("⚠️  pdfplumber não extraiu nenhum texto (PDF pode ser imagem)")
     except Exception as e:
         print(f"⚠️  pdfplumber falhou: {type(e).__name__}: {e}")
     
@@ -66,11 +66,43 @@ def ler_pdf(caminho):
                 print(f"✓ Texto extraído com PyPDF2: {len(texto)} caracteres")
                 return texto
             else:
-                print("⚠️  PyPDF2 não extraiu nenhum texto")
+                print("⚠️  PyPDF2 não extraiu nenhum texto (PDF pode ser imagem)")
     except ImportError:
-        print("❌ PyPDF2 não está instalado. Execute: pip install PyPDF2")
+        print("⚠️  PyPDF2 não está instalado")
     except Exception as e:
-        print(f"❌ PyPDF2 também falhou: {type(e).__name__}: {e}")
+        print(f"⚠️  PyPDF2 falhou: {type(e).__name__}: {e}")
+    
+    # Tentativa 3: OCR (para PDFs que são imagens - como os gerados por html2pdf.js)
+    try:
+        from pdf2image import convert_from_path
+        import pytesseract
+        
+        print("🔄 Tentando OCR (PDF parece ser imagem)...")
+        print("   ⏳ Convertendo PDF para imagem...")
+        
+        # Converte PDF para imagens
+        images = convert_from_path(caminho, dpi=300)
+        
+        texto = ""
+        for i, image in enumerate(images, 1):
+            print(f"   📸 Processando página {i} com OCR...")
+            # Extrai texto da imagem usando Tesseract
+            texto_pagina = pytesseract.image_to_string(image, lang='por')
+            texto += texto_pagina
+            print(f"      Extraídos {len(texto_pagina)} caracteres")
+        
+        if texto.strip():
+            print(f"✓ Texto extraído com OCR: {len(texto)} caracteres")
+            return texto
+        else:
+            print("⚠️  OCR não conseguiu extrair texto")
+            
+    except ImportError as e:
+        print(f"⚠️  Bibliotecas OCR não instaladas: {e}")
+        print("   Para instalar: pip install pdf2image pytesseract")
+        print("   Também é necessário instalar o Tesseract: https://github.com/UB-Mannheim/tesseract/wiki")
+    except Exception as e:
+        print(f"⚠️  OCR falhou: {type(e).__name__}: {e}")
     
     print("❌ Nenhum método conseguiu extrair texto do PDF")
     return None
