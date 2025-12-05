@@ -4,15 +4,178 @@ Execute este script na pasta onde estão seus PDFs para ver detalhes do processa
 """
 
 import sys
+import os
+import re
 from pathlib import Path
 
-# Adiciona o caminho do módulo
-sys.path.insert(0, str(Path(__file__).parent))
+# Adiciona o caminho do módulo ao sys.path
+current_dir = Path(__file__).parent
+if str(current_dir) not in sys.path:
+    sys.path.insert(0, str(current_dir))
 
-from extractors.uc_extractor import extrai_uc, extrai_uc_do_texto, normalizar_uc, extrai_referencia
-from extractors.value_extractor import extrair_valor_fatura, extrair_valor_boleto
-from pdf.pdf_reader import ler_pdf
+# Importa diretamente os módulos necessários
+try:
+    import pdfplumber
+except ImportError:
+    print("❌ Erro: pdfplumber não está instalado!")
+    print("Execute: pip install pdfplumber")
+    sys.exit(1)
+
+# Importa configurações e funções localmente
+import config
 from logging_utils import get_logger
+
+def ler_pdf(caminho):
+    """Lê o texto de um PDF usando pdfplumber (com fallback para PyPDF2)."""
+    # Verifica se o arquivo existe
+    if not Path(caminho).exists():
+        print(f"❌ Arquivo não encontrado: {caminho}")
+        return None
+    
+    print(f"📂 Lendo: {Path(caminho).name}")
+    print(f"📏 Tamanho: {Path(caminho).stat().st_size / 1024:.2f} KB")
+    
+    # Tentativa 1: pdfplumber (melhor para PDFs estruturados)
+    try:
+        with pdfplumber.open(caminho) as pdf:
+            print(f"📄 Páginas: {len(pdf.pages)}")
+            texto = ""
+            for i, pagina in enumerate(pdf.pages, 1):
+                texto_pagina = pagina.extract_text() or ""
+                print(f"   Página {i}: {len(texto_pagina)} caracteres")
+                texto += texto_pagina
+            
+            if texto.strip():  # Se conseguiu extrair texto
+                print(f"✓ Total extraído com pdfplumber: {len(texto)} caracteres")
+                return texto
+            else:
+                print("⚠️  pdfplumber não extraiu nenhum texto")
+    except Exception as e:
+        print(f"⚠️  pdfplumber falhou: {type(e).__name__}: {e}")
+    
+    # Tentativa 2: PyPDF2 (fallback)
+    try:
+        import PyPDF2
+        print("🔄 Tentando com PyPDF2...")
+        with open(caminho, 'rb') as file:
+            reader = PyPDF2.PdfReader(file)
+            texto = ""
+            for pagina in reader.pages:
+                texto += pagina.extract_text() or ""
+            if texto.strip():
+                print(f"✓ Texto extraído com PyPDF2: {len(texto)} caracteres")
+                return texto
+            else:
+                print("⚠️  PyPDF2 não extraiu nenhum texto")
+    except ImportError:
+        print("❌ PyPDF2 não está instalado. Execute: pip install PyPDF2")
+    except Exception as e:
+        print(f"❌ PyPDF2 também falhou: {type(e).__name__}: {e}")
+    
+    print("❌ Nenhum método conseguiu extrair texto do PDF")
+    return None
+
+def normalizar_uc(uc_raw: str) -> str:
+    """Remove caracteres não numéricos para comparação."""
+    if not uc_raw:
+        return ""
+    return re.sub(r'[^\d]', '', uc_raw)
+
+def extrai_uc(nome_arquivo: str):
+    """Extrai UC do nome do arquivo no formato {UC}_{NOME}_{DATA}.pdf"""
+    # Tenta extrair UC antes do primeiro underscore
+    partes = nome_arquivo.split('_')
+    if partes and partes[0]:
+        primeira_parte = partes[0]
+        uc_candidata = re.sub(r'[^\d]', '', primeira_parte)
+        
+        if 6 <= len(uc_candidata) <= 12:
+            return uc_candidata
+    
+    # Fallback: Busca padrão antigo
+    nome_limpo = normalizar_uc(nome_arquivo)
+    match = re.search(r'\d{6,12}', nome_limpo)
+    if match:
+        return match.group(0)
+    
+    return None
+
+def extrai_uc_do_texto(texto: str, nome_arquivo: str = ""):
+    """Extrai UC do conteúdo do PDF."""
+    if not texto:
+        return None
+        
+    for padrao in config.UC_PATTERNS:
+        matches = re.finditer(padrao, texto, re.IGNORECASE)
+        for match in matches:
+            uc_encontrada = match.group(1)
+            uc_limpa = normalizar_uc(uc_encontrada)
+            
+            if 6 <= len(uc_limpa) <= 12:
+                return uc_limpa
+                
+    return None
+
+def extrai_referencia(texto: str, nome_arquivo: str = ""):
+    """Extrai mês/ano de referência (ex: nov/2025)."""
+    match = re.search(r'(jan|fev|mar|abr|mai|jun|jul|ago|set|out|nov|dez)[a-z]*\W+(\d{4})', texto, re.IGNORECASE)
+    if match:
+        return f"{match.group(1).lower()}/{match.group(2)}"
+    return None
+
+def _str_to_float(valor_str: str):
+    """Converte '1.234,56' para 1234.56"""
+    try:
+        limpo = valor_str.replace('.', '').replace(',', '.')
+        return float(limpo)
+    except:
+        return None
+
+def extrair_valor_fatura(texto: str, nome_arquivo: str = ""):
+    """Tenta extrair o 'Total a Pagar' da fatura."""
+    # Tenta padrão principal
+    match = re.search(config.VALUE_PATTERNS['fatura_total'], texto, re.IGNORECASE)
+    if match:
+        return _str_to_float(match.group(1))
+    
+    # Tenta padrão alternativo
+    match = re.search(config.VALUE_PATTERNS['fatura_total_alt'], texto, re.IGNORECASE)
+    if match:
+        return _str_to_float(match.group(1))
+        
+    return None
+
+def extrair_valor_boleto(texto: str, nome_arquivo: str = ""):
+    """Extrai valor do boleto."""
+    # Tentativa via Rótulo (padrão principal)
+    match_doc = re.search(config.VALUE_PATTERNS['boleto_documento'], texto, re.IGNORECASE)
+    if match_doc:
+        valor = _str_to_float(match_doc.group(1))
+        if valor:
+            return valor
+    
+    # Tentativa via Rótulo (padrão alternativo)
+    match_doc_alt = re.search(config.VALUE_PATTERNS['boleto_documento_alt'], texto, re.IGNORECASE)
+    if match_doc_alt:
+        valor = _str_to_float(match_doc_alt.group(1))
+        if valor:
+            return valor
+
+    # Tentativa via Linha Digitável
+    numeros_apenas = re.sub(r'[^\d]', '', texto)
+    match_barras = re.search(r'(\d{44,48})', numeros_apenas)
+    
+    if match_barras:
+        sequencia = match_barras.group(1)
+        valor_str = sequencia[-10:]
+        try:
+            valor = float(valor_str) / 100.0
+            if valor > 0:
+                return valor
+        except:
+            pass
+            
+    return None
 
 def diagnosticar_arquivo(caminho_pdf: str, tipo: str):
     """Diagnostica um único arquivo PDF."""
@@ -143,7 +306,10 @@ def diagnosticar_pareamento(fatura_path: str, boleto_path: str):
     if fatura['valor'] and boleto['valor']:
         diff = abs(fatura['valor'] - boleto['valor'])
         valor_match = diff < 0.01
-        print(f"{'Valor':<20} {f'R$ {fatura['valor']:.2f}':<30} {f'R$ {boleto['valor']:.2f}':<30} {'✅ SIM' if valor_match else f'❌ NÃO (diff: R$ {diff:.2f})':<10}")
+        fatura_val = f"R$ {fatura['valor']:.2f}"
+        boleto_val = f"R$ {boleto['valor']:.2f}"
+        match_msg = '✅ SIM' if valor_match else f'❌ NÃO (diff: R$ {diff:.2f})'
+        print(f"{'Valor':<20} {fatura_val:<30} {boleto_val:<30} {match_msg:<10}")
     else:
         print(f"{'Valor':<20} {str(fatura['valor']):<30} {str(boleto['valor']):<30} {'❌ AUSENTE':<10}")
     
