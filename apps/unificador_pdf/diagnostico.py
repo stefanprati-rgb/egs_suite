@@ -280,12 +280,24 @@ def diagnosticar_pareamento(fatura_path: str, boleto_path: str):
     log.print_section("🔗 DIAGNÓSTICO DE PAREAMENTO")
     
     print("Analisando FATURA...")
-    fatura = diagnosticar_arquivo(fatura_path, 'fatura')
+    try:
+        fatura = diagnosticar_arquivo(fatura_path, 'fatura')
+    except Exception as e:
+        print(f"\n❌ ERRO ao processar FATURA: {type(e).__name__}: {e}")
+        import traceback
+        traceback.print_exc()
+        fatura = None
     
     print("\n" + "="*80 + "\n")
     
     print("Analisando BOLETO...")
-    boleto = diagnosticar_arquivo(boleto_path, 'boleto')
+    try:
+        boleto = diagnosticar_arquivo(boleto_path, 'boleto')
+    except Exception as e:
+        print(f"\n❌ ERRO ao processar BOLETO: {type(e).__name__}: {e}")
+        import traceback
+        traceback.print_exc()
+        boleto = None
     
     if not fatura or not boleto:
         log.print_error("Falha ao processar um ou ambos os arquivos!")

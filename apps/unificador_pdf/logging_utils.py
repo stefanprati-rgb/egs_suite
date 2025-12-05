@@ -98,14 +98,14 @@ class LogHandler:
         """Imprime cabeçalho colorido no console."""
         if COLORAMA_AVAILABLE:
             print(f"\n{Fore.CYAN}{'='*70}{Style.RESET_ALL}")
-            print(f"{Fore.CYAN}{Style.BRIGHT}  📄 UNIFICADOR DE FATURAS E BOLETOS EGS{Style.RESET_ALL}")
+            print(f"{Fore.CYAN}{Style.BRIGHT}  UNIFICADOR DE FATURAS E BOLETOS EGS{Style.RESET_ALL}")
             print(f"{Fore.CYAN}{'='*70}{Style.RESET_ALL}\n")
-            print(f"{Fore.GREEN}📁 Log salvo em: {Fore.WHITE}{self.log_file}{Style.RESET_ALL}\n")
+            print(f"{Fore.GREEN}Log salvo em: {Fore.WHITE}{self.log_file}{Style.RESET_ALL}\n")
         else:
             print("\n" + "="*70)
-            print("  📄 UNIFICADOR DE FATURAS E BOLETOS EGS")
+            print("  UNIFICADOR DE FATURAS E BOLETOS EGS")
             print("="*70 + "\n")
-            print(f"📁 Log salvo em: {self.log_file}\n")
+            print(f"Log salvo em: {self.log_file}\n")
     
     def print_section(self, title: str):
         """Imprime um separador de seção."""

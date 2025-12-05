@@ -1,0 +1,34 @@
+
+======================================================================
+  UNIFICADOR DE FATURAS E BOLETOS EGS
+======================================================================
+
+Log salvo em: C:\Projetos\Projeto EGS\EGS_Suite\apps\logs\unificador_20251205_155541.log
+
+
+Traceback (most recent call last):
+  File "C:\Projetos\Projeto EGS\EGS_Suite\apps\unificador_pdf\diagnostico.py", line 359, in <module>
+    diagnosticar_pareamento(fatura, boleto)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Projetos\Projeto EGS\EGS_Suite\apps\unificador_pdf\diagnostico.py", line 280, in diagnosticar_pareamento
+    log.print_section("\U0001f517 DIAGNËSTICO DE PAREAMENTO")
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projetos\Projeto EGS\EGS_Suite\apps\unificador_pdf\logging_utils.py", line 113, in print_section
+    print(f"\n{Fore.MAGENTA}{Style.BRIGHT}{'\u2500'*70}{Style.RESET_ALL}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Stefan_Pratti\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 47, in write
+    self.__convertor.write(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Stefan_Pratti\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 177, in write
+    self.write_and_convert(text)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Stefan_Pratti\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 202, in write_and_convert
+    self.write_plain_text(text, cursor, start)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Stefan_Pratti\AppData\Local\Programs\Python\Python313\Lib\site-packages\colorama\ansitowin32.py", line 210, in write_plain_text
+    self.wrapped.write(text[start:end])
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Stefan_Pratti\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-69: character maps to <undefined>
