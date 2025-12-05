@@ -149,10 +149,26 @@ def extrai_uc_do_texto(texto: str, nome_arquivo: str = ""):
     return None
 
 def extrai_referencia(texto: str, nome_arquivo: str = ""):
-    """Extrai mês/ano de referência (ex: nov/2025)."""
+    """Extrai mês/ano de referência (ex: nov/2025 ou Novembro/2025)."""
+    # Tenta meses completos primeiro (comum em OCR)
+    match = re.search(r'(Janeiro|Fevereiro|Março|Abril|Maio|Junho|Julho|Agosto|Setembro|Outubro|Novembro|Dezembro)\s+(?:de\s+)?(\d{4})', texto, re.IGNORECASE)
+    if match:
+        mes_completo = match.group(1).lower()
+        ano = match.group(2)
+        # Converte para abreviação
+        meses = {
+            'janeiro': 'jan', 'fevereiro': 'fev', 'março': 'mar', 'abril': 'abr',
+            'maio': 'mai', 'junho': 'jun', 'julho': 'jul', 'agosto': 'ago',
+            'setembro': 'set', 'outubro': 'out', 'novembro': 'nov', 'dezembro': 'dez'
+        }
+        mes_abrev = meses.get(mes_completo, mes_completo[:3])
+        return f"{mes_abrev}/{ano}"
+    
+    # Tenta abreviações (padrão original)
     match = re.search(r'(jan|fev|mar|abr|mai|jun|jul|ago|set|out|nov|dez)[a-z]*\W+(\d{4})', texto, re.IGNORECASE)
     if match:
         return f"{match.group(1).lower()}/{match.group(2)}"
+    
     return None
 
 def _str_to_float(valor_str: str):
