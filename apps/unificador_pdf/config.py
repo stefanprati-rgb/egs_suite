@@ -29,7 +29,7 @@ COLORS = {
     'disabled': '#9ca3af',
 }
 
-# Fontes (Restauradas)
+# Fontes
 FONTS = {
     'title': ('Segoe UI', 18, 'bold'),
     'subtitle': ('Segoe UI', 10),
@@ -37,6 +37,9 @@ FONTS = {
     'body': ('Segoe UI', 10),
     'body_bold': ('Segoe UI', 10, 'bold'),
     'small': ('Segoe UI', 9),
+    'small_bold': ('Segoe UI', 9, 'bold'),
+    'mono': ('Consolas', 9),
+    'icon': ('Segoe UI Emoji', 12),
 }
 
 # Clientes conhecidos
