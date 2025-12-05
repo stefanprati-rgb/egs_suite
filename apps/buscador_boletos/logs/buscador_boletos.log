@@ -1,0 +1,359 @@
+2025-12-05 11:09:15 - INFO - [file_manager.py:33] - ==================================================
+2025-12-05 11:09:15 - INFO - [file_manager.py:34] - INICIALIZANDO NOVA SESSÃO DO BUSCADOR DE BOLETOS
+2025-12-05 11:09:15 - INFO - [file_manager.py:35] - ==================================================
+2025-12-05 11:09:28 - INFO - [outlook_service.py:150] - Iniciando busca de 04/12/2025 a 05/12/2025.
+2025-12-05 11:09:28 - INFO - [outlook_service.py:162] - Usando Caixa de Entrada padrão da conta 'atendimento@egsenergia.com.br'.
+2025-12-05 11:09:28 - INFO - [outlook_service.py:174] - Conectado à conta 'atendimento@egsenergia.com.br'.
+2025-12-05 11:09:28 - INFO - [file_manager.py:54] - 0 hashes de PDFs existentes foram carregados.
+2025-12-05 11:09:28 - INFO - [outlook_service.py:35] - --- ANALISANDO PASTA: \\atendimento@egsenergia.com.br\Caixa de Entrada ---
+2025-12-05 11:09:28 - INFO - [outlook_service.py:52] - 524 e-mails pré-filtrados (apenas por data) encontrados na pasta.
+2025-12-05 11:09:28 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:28 - INFO - [pdf_processor.py:36] - UC '10415489' encontrada com padrão específico.
+2025-12-05 11:09:29 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:29 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10415489_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:29 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:29 - INFO - [pdf_processor.py:36] - UC '101750736' encontrada com padrão específico.
+2025-12-05 11:09:29 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:29 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\101750736_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:29 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:29 - INFO - [pdf_processor.py:36] - UC '1087775' encontrada com padrão específico.
+2025-12-05 11:09:29 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:29 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1087775_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:29 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:29 - INFO - [pdf_processor.py:36] - UC '1022472567' encontrada com padrão específico.
+2025-12-05 11:09:29 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:29 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1022472567_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:29 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:29 - INFO - [pdf_processor.py:36] - UC '1012661286' encontrada com padrão específico.
+2025-12-05 11:09:29 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:29 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1012661286_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:30 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:30 - INFO - [pdf_processor.py:36] - UC '1011309887' encontrada com padrão específico.
+2025-12-05 11:09:30 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:30 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1011309887_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:30 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:30 - INFO - [pdf_processor.py:36] - UC '103954716' encontrada com padrão específico.
+2025-12-05 11:09:30 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:30 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\103954716_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:30 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:30 - INFO - [pdf_processor.py:36] - UC '1030405658' encontrada com padrão específico.
+2025-12-05 11:09:30 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:30 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1030405658_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:30 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:30 - INFO - [pdf_processor.py:36] - UC '10613448' encontrada com padrão específico.
+2025-12-05 11:09:30 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:30 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10613448_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:30 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:30 - INFO - [pdf_processor.py:36] - UC '1035560721' encontrada com padrão específico.
+2025-12-05 11:09:31 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:31 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1035560721_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:31 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:31 - INFO - [pdf_processor.py:36] - UC '10812222' encontrada com padrão específico.
+2025-12-05 11:09:31 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:31 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10812222_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:31 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:31 - INFO - [pdf_processor.py:36] - UC '1031237068' encontrada com padrão específico.
+2025-12-05 11:09:31 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:31 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1031237068_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:31 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:31 - INFO - [pdf_processor.py:36] - UC '1016741779' encontrada com padrão específico.
+2025-12-05 11:09:31 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:31 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1016741779_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:31 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:31 - INFO - [pdf_processor.py:36] - UC '1011172939' encontrada com padrão específico.
+2025-12-05 11:09:31 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:31 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1011172939_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:31 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:32 - INFO - [pdf_processor.py:36] - UC '1010356558' encontrada com padrão específico.
+2025-12-05 11:09:32 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:32 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1010356558_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:32 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:32 - INFO - [pdf_processor.py:36] - UC '1015487416' encontrada com padrão específico.
+2025-12-05 11:09:32 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:32 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1015487416_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:32 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:32 - INFO - [pdf_processor.py:36] - UC '1027944321' encontrada com padrão específico.
+2025-12-05 11:09:32 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:32 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1027944321_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:32 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:32 - INFO - [pdf_processor.py:36] - UC '1014330872' encontrada com padrão específico.
+2025-12-05 11:09:32 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:32 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1014330872_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:32 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:32 - INFO - [pdf_processor.py:36] - UC '105327234' encontrada com padrão específico.
+2025-12-05 11:09:33 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:33 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\105327234_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:33 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:33 - INFO - [pdf_processor.py:36] - UC '10102327' encontrada com padrão específico.
+2025-12-05 11:09:33 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:33 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10102327_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:33 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:33 - INFO - [pdf_processor.py:36] - UC '102762839' encontrada com padrão específico.
+2025-12-05 11:09:33 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:33 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102762839_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:33 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:33 - INFO - [pdf_processor.py:36] - UC '104528840' encontrada com padrão específico.
+2025-12-05 11:09:33 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:33 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\104528840_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:33 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:33 - INFO - [pdf_processor.py:36] - UC '1010178044' encontrada com padrão específico.
+2025-12-05 11:09:33 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:33 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1010178044_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:33 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:34 - INFO - [pdf_processor.py:36] - UC '101919455' encontrada com padrão específico.
+2025-12-05 11:09:34 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:34 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\101919455_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:34 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:34 - INFO - [pdf_processor.py:36] - UC '1016950115' encontrada com padrão específico.
+2025-12-05 11:09:34 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:34 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1016950115_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:34 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:34 - INFO - [pdf_processor.py:36] - UC '10180158' encontrada com padrão específico.
+2025-12-05 11:09:34 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:34 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10180158_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:34 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:34 - INFO - [pdf_processor.py:36] - UC '1026057315' encontrada com padrão específico.
+2025-12-05 11:09:34 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:34 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1026057315_IGREJA DO EVANGELHO QUADRANGULAR_20251205.pdf
+2025-12-05 11:09:34 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:34 - INFO - [pdf_processor.py:36] - UC '105301957' encontrada com padrão específico.
+2025-12-05 11:09:35 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:35 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\105301957_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:35 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:35 - INFO - [pdf_processor.py:36] - UC '102831832' encontrada com padrão específico.
+2025-12-05 11:09:35 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:35 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102831832_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:35 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:35 - INFO - [pdf_processor.py:36] - UC '105058540' encontrada com padrão específico.
+2025-12-05 11:09:35 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:35 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\105058540_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:35 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:35 - INFO - [pdf_processor.py:36] - UC '10726059' encontrada com padrão específico.
+2025-12-05 11:09:35 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:35 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10726059_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:35 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:35 - INFO - [pdf_processor.py:36] - UC '102528172' encontrada com padrão específico.
+2025-12-05 11:09:35 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:35 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102528172_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:35 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:36 - INFO - [pdf_processor.py:36] - UC '10245142' encontrada com padrão específico.
+2025-12-05 11:09:36 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:36 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10245142_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:36 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:36 - INFO - [pdf_processor.py:36] - UC '109525791' encontrada com padrão específico.
+2025-12-05 11:09:36 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:36 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\109525791_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:36 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:36 - INFO - [pdf_processor.py:36] - UC '10693192' encontrada com padrão específico.
+2025-12-05 11:09:36 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:36 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10693192_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:36 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:36 - INFO - [pdf_processor.py:36] - UC '109088667' encontrada com padrão específico.
+2025-12-05 11:09:36 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:36 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\109088667_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:36 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:36 - INFO - [pdf_processor.py:36] - UC '101294909' encontrada com padrão específico.
+2025-12-05 11:09:37 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:37 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\101294909_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:37 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:37 - INFO - [pdf_processor.py:36] - UC '10529875' encontrada com padrão específico.
+2025-12-05 11:09:37 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:37 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10529875_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:37 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:37 - INFO - [pdf_processor.py:36] - UC '102806388' encontrada com padrão específico.
+2025-12-05 11:09:37 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:37 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102806388_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:37 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:37 - INFO - [pdf_processor.py:36] - UC '104665600' encontrada com padrão específico.
+2025-12-05 11:09:37 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:37 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\104665600_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:37 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:37 - INFO - [pdf_processor.py:36] - UC '10137869' encontrada com padrão específico.
+2025-12-05 11:09:37 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:37 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10137869_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:37 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:38 - INFO - [pdf_processor.py:36] - UC '103413085' encontrada com padrão específico.
+2025-12-05 11:09:38 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:38 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\103413085_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:38 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:38 - INFO - [pdf_processor.py:36] - UC '1012882411' encontrada com padrão específico.
+2025-12-05 11:09:38 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:38 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1012882411_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:38 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:38 - INFO - [pdf_processor.py:36] - UC '10769273' encontrada com padrão específico.
+2025-12-05 11:09:38 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:38 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10769273_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:38 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:38 - INFO - [pdf_processor.py:36] - UC '10783381' encontrada com padrão específico.
+2025-12-05 11:09:38 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:38 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10783381_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:38 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:38 - INFO - [pdf_processor.py:36] - UC '103993383' encontrada com padrão específico.
+2025-12-05 11:09:39 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:39 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\103993383_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:39 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:39 - INFO - [pdf_processor.py:36] - UC '104359642' encontrada com padrão específico.
+2025-12-05 11:09:39 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:39 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\104359642_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:39 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:39 - INFO - [pdf_processor.py:36] - UC '102393122' encontrada com padrão específico.
+2025-12-05 11:09:39 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:39 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102393122_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:39 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:39 - INFO - [pdf_processor.py:36] - UC '101423532' encontrada com padrão específico.
+2025-12-05 11:09:39 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:39 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\101423532_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:39 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:39 - INFO - [pdf_processor.py:36] - UC '101090745' encontrada com padrão específico.
+2025-12-05 11:09:39 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:39 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\101090745_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:39 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:40 - INFO - [pdf_processor.py:36] - UC '10152975' encontrada com padrão específico.
+2025-12-05 11:09:40 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:40 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10152975_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:40 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:40 - INFO - [pdf_processor.py:36] - UC '104805297' encontrada com padrão específico.
+2025-12-05 11:09:40 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:40 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\104805297_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:40 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:40 - INFO - [pdf_processor.py:36] - UC '105048442' encontrada com padrão específico.
+2025-12-05 11:09:40 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:40 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\105048442_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:40 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:40 - INFO - [pdf_processor.py:36] - UC '101274646' encontrada com padrão específico.
+2025-12-05 11:09:40 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:40 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\101274646_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:40 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:40 - INFO - [pdf_processor.py:36] - UC '10639203' encontrada com padrão específico.
+2025-12-05 11:09:40 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:40 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10639203_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:41 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:41 - INFO - [pdf_processor.py:36] - UC '109871781' encontrada com padrão específico.
+2025-12-05 11:09:41 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:41 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\109871781_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:41 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:41 - INFO - [pdf_processor.py:36] - UC '102607612' encontrada com padrão específico.
+2025-12-05 11:09:41 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:41 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102607612_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:41 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:41 - INFO - [pdf_processor.py:36] - UC '101139716' encontrada com padrão específico.
+2025-12-05 11:09:41 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:41 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\101139716_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:41 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:41 - INFO - [pdf_processor.py:36] - UC '104890760' encontrada com padrão específico.
+2025-12-05 11:09:41 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:41 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\104890760_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:41 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:41 - INFO - [pdf_processor.py:36] - UC '1031393267' encontrada com padrão específico.
+2025-12-05 11:09:42 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:42 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1031393267_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:42 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:42 - INFO - [pdf_processor.py:36] - UC '1010814895' encontrada com padrão específico.
+2025-12-05 11:09:42 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:42 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1010814895_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:42 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:42 - INFO - [pdf_processor.py:36] - UC '105134135' encontrada com padrão específico.
+2025-12-05 11:09:42 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:42 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\105134135_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:42 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:42 - INFO - [pdf_processor.py:36] - UC '105117536' encontrada com padrão específico.
+2025-12-05 11:09:42 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:42 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\105117536_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:42 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:42 - INFO - [pdf_processor.py:36] - UC '102578649' encontrada com padrão específico.
+2025-12-05 11:09:42 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:42 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102578649_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:42 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:43 - INFO - [pdf_processor.py:36] - UC '101352376' encontrada com padrão específico.
+2025-12-05 11:09:43 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:43 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\101352376_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:43 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:43 - INFO - [pdf_processor.py:36] - UC '101569565' encontrada com padrão específico.
+2025-12-05 11:09:43 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:43 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\101569565_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:43 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:43 - INFO - [pdf_processor.py:36] - UC '102266674' encontrada com padrão específico.
+2025-12-05 11:09:43 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:43 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102266674_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:43 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:43 - INFO - [pdf_processor.py:36] - UC '105015862' encontrada com padrão específico.
+2025-12-05 11:09:43 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:43 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\105015862_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:43 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:43 - INFO - [pdf_processor.py:36] - UC '103848231' encontrada com padrão específico.
+2025-12-05 11:09:44 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:44 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\103848231_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:44 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:44 - INFO - [pdf_processor.py:36] - UC '102374411' encontrada com padrão específico.
+2025-12-05 11:09:44 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:44 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102374411_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:44 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:44 - INFO - [pdf_processor.py:36] - UC '102187771' encontrada com padrão específico.
+2025-12-05 11:09:44 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:44 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102187771_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:44 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:44 - INFO - [pdf_processor.py:36] - UC '1016981300' encontrada com padrão específico.
+2025-12-05 11:09:44 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:44 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1016981300_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:44 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:44 - INFO - [pdf_processor.py:36] - UC '109313271' encontrada com padrão específico.
+2025-12-05 11:09:44 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:44 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\109313271_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:44 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:45 - INFO - [pdf_processor.py:36] - UC '105320817' encontrada com padrão específico.
+2025-12-05 11:09:45 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:45 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\105320817_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:45 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:45 - INFO - [pdf_processor.py:36] - UC '101627363' encontrada com padrão específico.
+2025-12-05 11:09:45 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:45 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\101627363_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:45 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:45 - INFO - [pdf_processor.py:36] - UC '1019390350' encontrada com padrão específico.
+2025-12-05 11:09:45 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:45 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1019390350_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:45 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:45 - INFO - [pdf_processor.py:36] - UC '1030928683' encontrada com padrão específico.
+2025-12-05 11:09:45 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:45 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1030928683_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:45 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:45 - INFO - [pdf_processor.py:36] - UC '1030307847' encontrada com padrão específico.
+2025-12-05 11:09:46 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:46 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1030307847_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:46 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:46 - INFO - [pdf_processor.py:36] - UC '103644408' encontrada com padrão específico.
+2025-12-05 11:09:46 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:46 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\103644408_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:46 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:46 - INFO - [pdf_processor.py:36] - UC '1011847514' encontrada com padrão específico.
+2025-12-05 11:09:46 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:46 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1011847514_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:46 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:46 - INFO - [pdf_processor.py:36] - UC '1016724528' encontrada com padrão específico.
+2025-12-05 11:09:46 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:46 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1016724528_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:46 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:46 - INFO - [pdf_processor.py:36] - UC '1025991019' encontrada com padrão específico.
+2025-12-05 11:09:46 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:46 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1025991019_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:46 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:47 - INFO - [pdf_processor.py:36] - UC '10299644' encontrada com padrão específico.
+2025-12-05 11:09:47 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:47 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\10299644_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:47 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:47 - INFO - [pdf_processor.py:36] - UC '105103304' encontrada com padrão específico.
+2025-12-05 11:09:47 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:47 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\105103304_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:47 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:47 - INFO - [pdf_processor.py:36] - UC '1052027' encontrada com padrão específico.
+2025-12-05 11:09:47 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:47 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\1052027_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:47 - INFO - [outlook_service.py:104] - PROCESSANDO ANEXO VÁLIDO de Assunto: 'ICTUS BANK - Solicitação de pagamento'
+2025-12-05 11:09:47 - INFO - [pdf_processor.py:36] - UC '102028389' encontrada com padrão específico.
+2025-12-05 11:09:47 - INFO - [pdf_processor.py:72] - Nome extraído: 'IGREJA DO EVANGELHO QUADRANGULAR'
+2025-12-05 11:09:47 - INFO - [outlook_service.py:119] - -> SUCESSO: Boleto salvo em: C:\Projetos\Projeto EGS\BuscadorBoletos\Boletos_Salvos\boletos_baixados\102028389_IGREJA DO EVANGELHO QUADRANGULAR_20251204.pdf
+2025-12-05 11:09:49 - INFO - [outlook_service.py:133] - RESUMO DA PASTA 'Caixa de Entrada': Sucesso=86, Falha=0, Descartes={'nao_mail': 9, 'fora_periodo': 429, 'remetente': 0, 'corpo': 0, 'sem_anexo_valido': 0, 'duplicata_hash': 0, 'falha_uc': 0}
+2025-12-05 11:09:49 - INFO - [outlook_service.py:181] - --- PROCESSO FINALIZADO ---
+2025-12-05 11:09:49 - INFO - [outlook_service.py:182] - Total de boletos com UC identificada: 86
+2025-12-05 11:09:49 - INFO - [outlook_service.py:183] - Total de boletos sem UC (para análise): 0
+2025-12-05 11:09:49 - INFO - [outlook_service.py:184] - ==================================================
+

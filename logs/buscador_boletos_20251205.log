@@ -1,0 +1,38 @@
+12:46:41 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+12:46:41 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+12:46:42 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+12:46:42 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+12:46:54 | INFO     | [root] | Iniciando busca de 04/12/2025 a 05/12/2025.
+12:46:54 | INFO     | [root] | Usando Caixa de Entrada padrão da conta 'atendimento@egsenergia.com.br'.
+12:46:54 | INFO     | [root] | Conectado à conta 'atendimento@egsenergia.com.br'.
+12:46:54 | INFO     | [buscador_boletos] | 86 hashes de PDFs existentes foram carregados.
+12:46:54 | INFO     | [buscador_boletos] | 86 hashes de PDFs existentes foram carregados.
+12:46:54 | INFO     | [root] | --- ANALISANDO PASTA: \\atendimento@egsenergia.com.br\Caixa de Entrada ---
+12:46:54 | INFO     | [root] | 524 e-mails pré-filtrados (apenas por data) encontrados na pasta.
+12:46:59 | INFO     | [root] | RESUMO DA PASTA 'Caixa de Entrada': Sucesso=0, Falha=0, Descartes={'nao_mail': 9, 'fora_periodo': 429, 'remetente': 0, 'corpo': 0, 'sem_anexo_valido': 0, 'duplicata_hash': 86, 'falha_uc': 0}
+12:46:59 | INFO     | [root] | --- PROCESSO FINALIZADO ---
+12:46:59 | INFO     | [root] | Total de boletos com UC identificada: 0
+12:46:59 | INFO     | [root] | Total de boletos sem UC (para análise): 0
+12:46:59 | INFO     | [root] | ==================================================
+
+13:31:54 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+13:31:54 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+13:31:54 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+13:31:54 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+13:31:58 | INFO     | [root] | Iniciando busca de 01/12/2025 a 31/12/2025.
+13:31:58 | INFO     | [root] | Usando Caixa de Entrada padrão da conta 'atendimento@egsenergia.com.br'.
+13:31:58 | INFO     | [root] | Conectado à conta 'atendimento@egsenergia.com.br'.
+13:31:58 | INFO     | [buscador_boletos] | 86 hashes de PDFs existentes foram carregados.
+13:31:58 | INFO     | [buscador_boletos] | 86 hashes de PDFs existentes foram carregados.
+13:31:58 | INFO     | [root] | --- ANALISANDO PASTA: \\atendimento@egsenergia.com.br\Caixa de Entrada ---
+13:31:58 | INFO     | [root] | 524 e-mails pré-filtrados (apenas por data) encontrados na pasta.
+13:32:02 | INFO     | [root] | RESUMO DA PASTA 'Caixa de Entrada': Sucesso=0, Falha=0, Descartes={'nao_mail': 9, 'fora_periodo': 429, 'remetente': 0, 'corpo': 0, 'sem_anexo_valido': 0, 'duplicata_hash': 86, 'falha_uc': 0}
+13:32:02 | INFO     | [root] | --- PROCESSO FINALIZADO ---
+13:32:02 | INFO     | [root] | Total de boletos com UC identificada: 0
+13:32:02 | INFO     | [root] | Total de boletos sem UC (para análise): 0
+13:32:02 | INFO     | [root] | ==================================================
+
+13:55:15 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+13:55:15 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+13:55:16 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
+13:55:16 | INFO     | [buscador_boletos] | Initialized logging for buscador_boletos. Log file: C:\Projetos\Projeto EGS\EGS_Suite\logs\buscador_boletos_20251205.log
