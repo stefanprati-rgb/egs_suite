@@ -1,0 +1,693 @@
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1010178044
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1010178044_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10102327
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10102327_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1010356558
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1010356558_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1010814895
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1010814895_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101090745
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 101090745_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1011172939
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1011172939_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1011309887
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1011309887_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101139716
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 101139716_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1011847514
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1011847514_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1012661286
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1012661286_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101274646
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 101274646_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1012882411
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1012882411_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101294909
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 101294909_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101352376
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 101352376_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10137869
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10137869_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101423532
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 101423532_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1014330872
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1014330872_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101502632
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 101502632_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10152975
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10152975_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1015487416
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1015487416_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101569565
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 101569565_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101627363
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 101627363_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1016724528
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1016724528_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1016741779
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1016741779_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1016950115
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1016950115_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1016981300
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1016981300_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10180158
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10180158_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101919455
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 101919455_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1019390350
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1019390350_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102028389
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102028389_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102187771
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102187771_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1022472567
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1022472567_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102266674
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102266674_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102374411
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102374411_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102393122
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102393122_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10245142
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10245142_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102528172
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102528172_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102578649
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102578649_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1025991019
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1025991019_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1026057315
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1026057315_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102607612
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102607612_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102762839
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102762839_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1027944321
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1027944321_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102806388
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102806388_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102831832
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 102831832_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:18 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10299644
+16:15:18 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:18 | INFO     | unificador |    Preview: ...
+16:15:18 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10299644_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1030052260
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1030052260_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1030307847
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1030307847_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1030405658
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1030405658_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1030928683
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1030928683_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1031237068
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1031237068_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1031393267
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1031393267_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 103413085
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 103413085_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1035560721
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1035560721_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 103644408
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 103644408_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 103848231
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 103848231_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 103954716
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 103954716_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 103993383
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 103993383_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10415489
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10415489_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 104359642
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 104359642_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 104528840
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 104528840_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 104665600
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 104665600_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 104805297
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 104805297_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 104890760
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 104890760_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105015862
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 105015862_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105048442
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 105048442_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105058540
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 105058540_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105103304
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 105103304_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105117536
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 105117536_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105134135
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 105134135_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1052027
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 1052027_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10529875
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10529875_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105301957
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 105301957_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105320817
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 105320817_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105327234
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 105327234_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10613448
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10613448_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10639203
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10639203_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10693192
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10693192_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10726059
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10726059_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10769273
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10769273_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10783381
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10783381_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10812222
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 10812222_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 109088667
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 109088667_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 109259706
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 109259706_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 109313271
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 109313271_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 109525791
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 109525791_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 109871781
+16:15:19 | INFO     | unificador |    Texto extraído: 0 caracteres
+16:15:19 | INFO     | unificador |    Preview: ...
+16:15:19 | WARNING  | unificador | [VALOR_FATURA] Nenhum valor encontrado em 109871781_IGREJA DO EVANGELHO QUADRANGULAR_20251130.pdf
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1010178044
+16:15:19 | INFO     | unificador |    Texto extraído: 2713 caracteres
+16:15:19 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 26000.000104 6 12960000018373 Be...
+16:15:19 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 183.73
+16:15:19 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10102327
+16:15:20 | INFO     | unificador |    Texto extraído: 2699 caracteres
+16:15:20 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 31000.000104 1 12960000003596 Be...
+16:15:20 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 35.96
+16:15:20 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1010356558
+16:15:20 | INFO     | unificador |    Texto extraído: 2709 caracteres
+16:15:20 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 32000.000102 1 12960000037840 Be...
+16:15:20 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 378.4
+16:15:20 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1010814895
+16:15:20 | INFO     | unificador |    Texto extraído: 2709 caracteres
+16:15:20 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 03000.000103 7 12960000038283 Be...
+16:15:20 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 382.83
+16:15:20 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101090745
+16:15:21 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:21 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 11000.000106 9 12960000027020 Be...
+16:15:21 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 270.2
+16:15:21 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1011172939
+16:15:21 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:21 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 33000.000100 2 12960000015434 Be...
+16:15:21 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 154.34
+16:15:21 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1011309887
+16:15:21 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:21 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 43000.000109 9 12960000009998 Be...
+16:15:21 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 99.98
+16:15:21 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101139716
+16:15:22 | INFO     | unificador |    Texto extraído: 2699 caracteres
+16:15:22 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 00000.000109 9 12960000007184 Be...
+16:15:22 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 71.84
+16:15:22 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1011847514
+16:15:22 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:22 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 83000.000105 4 12960000018107 Be...
+16:15:22 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 181.07
+16:15:22 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1012661286
+16:15:22 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:22 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 42000.000101 1 12960000020289 Be...
+16:15:22 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 202.89
+16:15:22 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101274646
+16:15:23 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:23 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 06000.000106 1 12960000050020 Be...
+16:15:23 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 500.2
+16:15:23 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1012882411
+16:15:23 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:23 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 18000.000101 2 12960000024271 Be...
+16:15:23 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 242.71
+16:15:23 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101294909
+16:15:23 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:23 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 22000.000103 1 12960000019274 Be...
+16:15:23 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 192.74
+16:15:23 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101352376
+16:15:24 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:24 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 97000.000105 1 12960000011113 Be...
+16:15:24 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 111.13
+16:15:24 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10137869
+16:15:24 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:24 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 21000.000105 6 12960000022218 Be...
+16:15:24 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 222.18
+16:15:24 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101423532
+16:15:24 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:24 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 08000.000102 3 12960000032298 Be...
+16:15:24 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 322.98
+16:15:24 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1014330872
+16:15:25 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:25 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 34000.000108 2 12960000014985 Be...
+16:15:25 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 149.85
+16:15:25 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10152975
+16:15:25 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:25 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 09000.000100 2 12960000042450 Be...
+16:15:25 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 424.5
+16:15:25 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1015487416
+16:15:25 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:25 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 30000.000106 1 12960000011945 Be...
+16:15:25 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 119.45
+16:15:25 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101569565
+16:15:25 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:25 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 94000.000102 5 12960000019354 Be...
+16:15:25 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 193.54
+16:15:25 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101627363
+16:15:26 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:26 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 87000.000106 8 12960000012645 Be...
+16:15:26 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 126.45
+16:15:26 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1016724528
+16:15:26 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:26 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 80000.000101 1 12960000024893 Be...
+16:15:26 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 248.93
+16:15:26 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1016741779
+16:15:26 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:26 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 35000.000105 1 12960000010286 Be...
+16:15:26 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 102.86
+16:15:26 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1016950115
+16:15:27 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:27 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 21000.000105 1 12960000020595 Be...
+16:15:27 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 205.95
+16:15:27 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1016981300
+16:15:27 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:27 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 86000.000108 5 12960000022423 Be...
+16:15:27 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 224.23
+16:15:27 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101750736
+16:15:27 | INFO     | unificador |    Texto extraído: 2695 caracteres
+16:15:27 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 44000.000107 4 12960000000598 Be...
+16:15:27 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 5.98
+16:15:27 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10180158
+16:15:28 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:28 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 22000.000103 3 12960000094003 Be...
+16:15:28 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 940.03
+16:15:28 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 101919455
+16:15:28 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:28 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 24000.000109 3 12960000058437 Be...
+16:15:28 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 584.37
+16:15:28 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1019390350
+16:15:28 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:28 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 84000.000103 1 12960000024452 Be...
+16:15:28 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 244.52
+16:15:28 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102028389
+16:15:29 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:29 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 76000.000109 5 12960000067052 Be...
+16:15:29 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 670.52
+16:15:29 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102187771
+16:15:29 | INFO     | unificador |    Texto extraído: 2701 caracteres
+16:15:29 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 91000.000108 7 12960000006200 Be...
+16:15:29 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 62.0
+16:15:29 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1022472567
+16:15:29 | INFO     | unificador |    Texto extraído: 2709 caracteres
+16:15:29 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 45000.000104 1 12960000042802 Be...
+16:15:29 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 428.02
+16:15:29 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102266674
+16:15:29 | INFO     | unificador |    Texto extraído: 2701 caracteres
+16:15:29 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 93000.000104 4 12960000004885 Be...
+16:15:29 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 48.85
+16:15:29 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102374411
+16:15:30 | INFO     | unificador |    Texto extraído: 2695 caracteres
+16:15:30 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 89000.000102 3 12960000000862 Be...
+16:15:30 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 8.62
+16:15:30 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102393122
+16:15:30 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:30 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 14000.000100 9 12960000027097 Be...
+16:15:30 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 270.97
+16:15:30 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10245142
+16:15:30 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:30 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 28000.000100 7 12960000012428 Be...
+16:15:30 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 124.28
+16:15:30 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102528172
+16:15:31 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:31 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 30000.000106 2 12960000029945 Be...
+16:15:31 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 299.45
+16:15:31 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102578649
+16:15:31 | INFO     | unificador |    Texto extraído: 2699 caracteres
+16:15:31 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 96000.000107 1 12960000001820 Be...
+16:15:31 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 18.2
+16:15:31 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1025991019
+16:15:31 | INFO     | unificador |    Texto extraído: 2709 caracteres
+16:15:31 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 78000.000105 2 12960000087084 Be...
+16:15:31 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 870.84
+16:15:31 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1026057315
+16:15:32 | INFO     | unificador |    Texto extraído: 2715 caracteres
+16:15:32 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 23000.000101 1 12960000130725 Be...
+16:15:32 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 1307.25
+16:15:32 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102607612
+16:15:32 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:32 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 04000.000101 8 12960000016514 Be...
+16:15:32 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 165.14
+16:15:32 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102762839
+16:15:32 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:32 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 29000.000108 6 12960000046094 Be...
+16:15:32 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 460.94
+16:15:32 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1027944321
+16:15:33 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:33 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 25000.000106 3 12960000012082 Be...
+16:15:33 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 120.82
+16:15:33 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102806388
+16:15:33 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:33 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 25000.000106 1 12960000014096 Be...
+16:15:33 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 140.96
+16:15:33 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 102831832
+16:15:33 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:33 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 27000.000102 5 12960000008508 Be...
+16:15:33 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 85.08
+16:15:33 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10299644
+16:15:34 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:34 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 77000.000107 3 12960000052888 Be...
+16:15:34 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 528.88
+16:15:34 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1030307847
+16:15:34 | INFO     | unificador |    Texto extraído: 2709 caracteres
+16:15:34 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 79000.000103 3 12960000038418 Be...
+16:15:34 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 384.18
+16:15:34 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1030405658
+16:15:34 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:34 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 41000.000103 5 12960000010065 Be...
+16:15:34 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 100.65
+16:15:34 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1030928683
+16:15:35 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:35 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 82000.000107 7 12960000025869 Be...
+16:15:35 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 258.69
+16:15:35 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1031237068
+16:15:35 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:35 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 36000.000103 6 12960000010019 Be...
+16:15:35 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 100.19
+16:15:35 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1031393267
+16:15:35 | INFO     | unificador |    Texto extraído: 2709 caracteres
+16:15:35 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 02000.000105 9 12960000039900 Be...
+16:15:35 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 399.0
+16:15:35 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 103413085
+16:15:35 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:35 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 20000.000107 1 12960000018973 Be...
+16:15:35 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 189.73
+16:15:35 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1035560721
+16:15:36 | INFO     | unificador |    Texto extraído: 2713 caracteres
+16:15:36 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 39000.000107 1 12960000012637 Be...
+16:15:36 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 126.37
+16:15:36 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 103644408
+16:15:36 | INFO     | unificador |    Texto extraído: 2713 caracteres
+16:15:36 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 74000.000104 6 12960000245645 Be...
+16:15:36 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 2456.45
+16:15:36 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 103848231
+16:15:36 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:36 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 92000.000106 1 12960000011495 Be...
+16:15:36 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 114.95
+16:15:36 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 103954716
+16:15:37 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:37 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 40000.000105 1 12960000010169 Be...
+16:15:37 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 101.69
+16:15:37 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 103993383
+16:15:37 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:37 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 13000.000102 3 12960000040469 Be...
+16:15:37 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 404.69
+16:15:37 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10415489
+16:15:37 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:37 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 47000.000100 5 12960000011386 Be...
+16:15:37 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 113.86
+16:15:37 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 104359642
+16:15:38 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:38 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 15000.000107 8 12960000036954 Be...
+16:15:38 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 369.54
+16:15:38 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 104528840
+16:15:38 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:38 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 27000.000102 8 12960000012709 Be...
+16:15:38 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 127.09
+16:15:38 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 104665600
+16:15:38 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:38 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 24000.000109 8 12960000017338 Be...
+16:15:38 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 173.38
+16:15:38 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 104805297
+16:15:39 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:39 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 12000.000104 6 12960000026363 Be...
+16:15:39 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 263.63
+16:15:39 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 104890760
+16:15:39 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:39 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 05000.000108 8 12960000033532 Be...
+16:15:39 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 335.32
+16:15:39 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105015862
+16:15:39 | INFO     | unificador |    Texto extraído: 2701 caracteres
+16:15:39 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 90000.000100 3 12960000004789 Be...
+16:15:39 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 47.89
+16:15:39 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105048442
+16:15:40 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:40 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 10000.000108 8 12960000047352 Be...
+16:15:40 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 473.52
+16:15:40 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105058540
+16:15:40 | INFO     | unificador |    Texto extraído: 2697 caracteres
+16:15:40 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 32000.000102 6 12960000001168 Be...
+16:15:40 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 11.68
+16:15:40 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105103304
+16:15:40 | INFO     | unificador |    Texto extraído: 2707 caracteres
+16:15:40 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 81000.000109 1 12960000037929 Be...
+16:15:40 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 379.29
+16:15:40 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105117536
+16:15:41 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:41 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 99000.000101 6 12960000032479 Be...
+16:15:41 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 324.79
+16:15:41 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105134135
+16:15:41 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:41 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 01000.000107 4 12960000031519 Be...
+16:15:41 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 315.19
+16:15:41 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1052027
+16:15:41 | INFO     | unificador |    Texto extraído: 2709 caracteres
+16:15:41 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 75000.000101 6 12960000199744 Be...
+16:15:41 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 1997.44
+16:15:41 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10529875
+16:15:42 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:42 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 23000.000101 1 12960000011676 Be...
+16:15:42 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 116.76
+16:15:42 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105301957
+16:15:42 | INFO     | unificador |    Texto extraído: 2701 caracteres
+16:15:42 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 33000.000100 1 12960000006256 Be...
+16:15:42 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 62.56
+16:15:42 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105320817
+16:15:42 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:42 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 85000.000100 3 12960000017526 Be...
+16:15:42 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 175.26
+16:15:42 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 105327234
+16:15:43 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:43 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 28000.000100 1 12960000028742 Be...
+16:15:43 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 287.42
+16:15:43 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10613448
+16:15:43 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:43 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 37000.000101 7 12960000030396 Be...
+16:15:43 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 303.96
+16:15:43 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10639203
+16:15:43 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:43 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 07000.000104 9 12960000036544 Be...
+16:15:43 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 365.44
+16:15:43 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10693192
+16:15:44 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:44 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 19000.000109 1 12960000016426 Be...
+16:15:44 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 164.26
+16:15:44 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10726059
+16:15:44 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:44 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 31000.000104 5 12960000012511 Be...
+16:15:44 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 125.11
+16:15:44 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10769273
+16:15:45 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:45 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 16000.000105 1 12960000032458 Be...
+16:15:45 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 324.58
+16:15:45 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10783381
+16:15:45 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:45 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 17000.000103 1 12960000028460 Be...
+16:15:45 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 284.6
+16:15:45 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 10812222
+16:15:46 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:46 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 38000.000109 1 12960000020414 Be...
+16:15:46 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 204.14
+16:15:46 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 1087775
+16:15:46 | INFO     | unificador |    Texto extraído: 2703 caracteres
+16:15:46 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.427211 46000.000102 2 12960000036938 Be...
+16:15:46 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 369.38
+16:15:46 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 109088667
+16:15:47 | INFO     | unificador |    Texto extraído: 2701 caracteres
+16:15:47 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 26000.000104 6 12960000006589 Be...
+16:15:47 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 65.89
+16:15:47 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 109313271
+16:15:47 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:47 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 88000.000104 8 12960000018587 Be...
+16:15:47 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 185.87
+16:15:47 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 109525791
+16:15:48 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:48 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415869 29000.000108 4 12960000014347 Be...
+16:15:48 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 143.47
+16:15:48 | DEBUG    | unificador | [UC_NOME] Encontrada no nome (antes do _): 109871781
+16:15:49 | INFO     | unificador |    Texto extraído: 2705 caracteres
+16:15:49 | INFO     | unificador |    Preview: Evite problemas: Não edite o código de barras ou pague o mesmo boleto duas vezes. Caso o boleto já tenha vencido, solicite um novo boleto. 529 52990.00108 90001.415851 98000.000103 4 12960000010538 Be...
+16:15:49 | DEBUG    | unificador | [VALOR_BOLETO] Via rótulo (alternativo): 105.38
+16:15:49 | INFO     | unificador | Log salvo em: C:\Projetos\Projeto EGS\EGS_Suite\logs\unificador_20251205.log
