@@ -1,13 +1,9 @@
 """
 Configurações e constantes do Unificador.
+Define os padrões regex para extração de dados.
 """
 
-# Clientes conhecidos para nomes amigáveis
-CLIENTES_CONHECIDOS = {
-    'igreja_do_evangelho_quadrangular': 'IGREJA_EVANGELHO_QUADRANGULAR',
-}
-
-# Configurações da janela
+# Configurações da janela (Visual)
 WINDOW_CONFIG = {
     'title': "Unificador de Faturas e Boletos",
     'geometry': "900x720",
@@ -33,31 +29,34 @@ COLORS = {
     'disabled': '#9ca3af',
 }
 
-# Fontes
-FONTS = {
-    'title': ('Segoe UI', 18, 'bold'),
-    'subtitle': ('Segoe UI', 10),
-    'heading': ('Segoe UI', 11, 'bold'),
-    'body': ('Segoe UI', 10),
-    'body_bold': ('Segoe UI', 10, 'bold'),
-    'small': ('Segoe UI', 9),
-    'small_bold': ('Segoe UI', 9, 'bold'),
-    'mono': ('Consolas', 9),
-    'icon': ('Segoe UI', 32),
+# Clientes conhecidos
+CLIENTES_CONHECIDOS = {
+    'igreja_do_evangelho_quadrangular': 'IGREJA_EVANGELHO_QUADRANGULAR',
 }
 
-# Padrões regex para extração de UC
+# ==========================================
+# PADRÕES DE EXTRAÇÃO (REGEX)
+# ==========================================
+
+# Padrões para Unidade Consumidora (UC) ou Instalação
 UC_PATTERNS = [
-    r'Unidade\s+Consumidora\D*(\d+[/\-]\d+[\-\d]*)',
-    r'Codigo\s+Instala\D*(\d+[/\-]\d+[\-\d]*)',
-    r'Instala\D*(\d+[/\-]\d+[\-\d]*)',
-    r'(\d{2,}/\d{4,}-\d+)',  # formato explícito: XX/XXXX-X
+    # Rótulos explícitos
+    r'(?:unidade\s+consumidora|c[óo]digo\s+de\s+instala[çc][ãa]o|c[óo]digo\s+instala[çc][ãa]o)\s*[:\.]?\s*([\d\./-]+)',
+    r'(?:instala[çc][ãa]o)\s*[:\.]?\s*(\d+)',
+    # Formatos específicos (Ex: 10/10232-7)
+    r'(\d{2}/\d{4,}-\d)',
+    r'(\d{10})', # Sequência de 10 dígitos (comum em UCs)
 ]
 
-# Padrões regex para extração de valores
+# Padrões para Valores Monetários
 VALUE_PATTERNS = {
-    'fatura_total': r'Total\s+a\s+pagar.*?R\$\s*([\d\.,]+)',
-    'fatura_isolado': r'R\$\s*([\d\.,]{4,})',
-    'boleto_documento': r'=\)\s*Valor\s+do\s+Documento\D*([\d\.,]+)',
-    'boleto_generico': r'Valor\s+do\s+Documento\D*([\d\.,]+)',
+    # Fatura: Busca por "Total a pagar" ou similares
+    'fatura_total': r'(?:Total\s+a\s+pagar|Valor\s+a\s+Pagar|Valor\s+Total|Total\s+da\s+Conta)[\s\S]{0,50}?R\$\s*([\d\.,]+)',
+    
+    # Boleto: Busca por campo "Valor do Documento"
+    'boleto_documento': r'(?:=\s*)?Valor\s*do\s*Documento[\s\S]{0,20}?R\$\s*([\d\.,]+)',
+    
+    # Boleto: Linha Digitável (Captura sequências longas de números separadas por espaço ou ponto)
+    # Ex: 52990.00108 90001.415851 ...
+    'boleto_linha_digitavel': r'(\d{5}\.?\d{5}\s+\d{5}\.?\d{6}\s+\d{5}\.?\d{6}\s+\d\s+\d{14})',
 }
