@@ -19,12 +19,21 @@ def extrair_valor_fatura(texto: str, nome_arquivo: str = "") -> Optional[float]:
     """Tenta extrair o 'Total a Pagar' da fatura."""
     log = get_logger()
     
+    # Tenta padrão principal
     match = re.search(VALUE_PATTERNS['fatura_total'], texto, re.IGNORECASE)
     if match:
         valor = _str_to_float(match.group(1))
-        log.debug(f"[VALOR_FATURA] Encontrado: {valor}")
+        log.debug(f"[VALOR_FATURA] Encontrado (padrão principal): {valor}")
+        return valor
+    
+    # Tenta padrão alternativo
+    match = re.search(VALUE_PATTERNS['fatura_total_alt'], texto, re.IGNORECASE)
+    if match:
+        valor = _str_to_float(match.group(1))
+        log.debug(f"[VALOR_FATURA] Encontrado (padrão alternativo): {valor}")
         return valor
         
+    log.warning(f"[VALOR_FATURA] Nenhum valor encontrado em {nome_arquivo}")
     return None
 
 def extrair_valor_boleto(texto: str, nome_arquivo: str = "") -> Optional[float]:
@@ -36,12 +45,20 @@ def extrair_valor_boleto(texto: str, nome_arquivo: str = "") -> Optional[float]:
     """
     log = get_logger()
     
-    # 1. Tentativa via Rótulo
+    # 1. Tentativa via Rótulo (padrão principal)
     match_doc = re.search(VALUE_PATTERNS['boleto_documento'], texto, re.IGNORECASE)
     if match_doc:
         valor = _str_to_float(match_doc.group(1))
         if valor:
-            log.debug(f"[VALOR_BOLETO] Via rótulo: {valor}")
+            log.debug(f"[VALOR_BOLETO] Via rótulo (principal): {valor}")
+            return valor
+    
+    # 1b. Tentativa via Rótulo (padrão alternativo)
+    match_doc_alt = re.search(VALUE_PATTERNS['boleto_documento_alt'], texto, re.IGNORECASE)
+    if match_doc_alt:
+        valor = _str_to_float(match_doc_alt.group(1))
+        if valor:
+            log.debug(f"[VALOR_BOLETO] Via rótulo (alternativo): {valor}")
             return valor
 
     # 2. Tentativa via Linha Digitável (Mais robusta para layouts ruins)
@@ -62,6 +79,12 @@ def extrair_valor_boleto(texto: str, nome_arquivo: str = "") -> Optional[float]:
             
     log.warning(f"[VALOR_BOLETO] Falha ao extrair valor em {nome_arquivo}")
     return None
+
+def comparar_valores(valor1: Optional[float], valor2: Optional[float]) -> bool:
+    """Compara dois valores com match exato (sem tolerância)."""
+    if valor1 is None or valor2 is None:
+        return False
+    return abs(valor1 - valor2) < 0.01  # Tolerância mínima para erros de arredondamento
 
 def analisar_valores_pdf(texto: str, nome_arquivo: str = "", tipo: str = "fatura") -> dict:
     """

@@ -14,16 +14,31 @@ def normalizar_uc(uc_raw: str) -> str:
     return re.sub(r'[^\d]', '', uc_raw)
 
 def extrai_uc(nome_arquivo: str) -> Optional[str]:
-    """Extrai UC do nome do arquivo."""
+    """Extrai UC do nome do arquivo no formato {UC}_{NOME}_{DATA}.pdf"""
     log = get_logger()
-    nome_limpo = normalizar_uc(nome_arquivo)
     
-    # Procura sequências de 6 a 12 dígitos no nome
+    # Tenta extrair UC antes do primeiro underscore
+    # Formato esperado: 1052027_IGREJA DO EVANGELHO_20251130.pdf
+    partes = nome_arquivo.split('_')
+    if partes and partes[0]:
+        primeira_parte = partes[0]
+        # Remove caracteres não numéricos
+        uc_candidata = re.sub(r'[^\d]', '', primeira_parte)
+        
+        # Valida se é uma UC válida (6 a 12 dígitos)
+        if 6 <= len(uc_candidata) <= 12:
+            log.debug(f"[UC_NOME] Encontrada no nome (antes do _): {uc_candidata}")
+            return uc_candidata
+    
+    # Fallback: Busca padrão antigo
+    nome_limpo = normalizar_uc(nome_arquivo)
     match = re.search(r'\d{6,12}', nome_limpo)
     if match:
         uc = match.group(0)
-        log.debug(f"[UC_NOME] Encontrada no nome: {uc}")
+        log.debug(f"[UC_NOME] Encontrada no nome (fallback): {uc}")
         return uc
+    
+    log.warning(f"[UC_NOME] Nenhuma UC encontrada no nome: {nome_arquivo}")
     return None
 
 def extrai_uc_do_texto(texto: str, nome_arquivo: str = "") -> Optional[str]:

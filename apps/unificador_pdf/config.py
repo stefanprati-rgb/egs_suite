@@ -53,21 +53,29 @@ CLIENTES_CONHECIDOS = {
 
 # Padrões para Unidade Consumidora (UC) ou Instalação
 UC_PATTERNS = [
-    # Rótulos explícitos
-    r'(?:unidade\s+consumidora|c[óo]digo\s+de\s+instala[çc][ãa]o|c[óo]digo\s+instala[çc][ãa]o)\s*[:\.]?\s*([\d\./-]+)',
-    r'(?:instala[çc][ãa]o)\s*[:\.]?\s*(\d+)',
-    # Formatos específicos (Ex: 10/10232-7)
-    r'(\d{2}/\d{4,}-\d)',
-    r'(\d{10})', # Sequência de 10 dígitos (comum em UCs)
+    # Padrões específicos da EGS (mais específicos primeiro)
+    r'(?:Unidade\s+Consumidora|UC)\s+([\d/\-]+)',  # "Unidade Consumidora 10/5202-7"
+    r'C[óo]digo\s+(?:de\s+)?Instala[çc][ãa]o\s*[:\.]?\s*([\d/\-]+)',  # "Código Instalação: 10/5202-7"
+    
+    # Rótulos explícitos genéricos
+    r'(?:unidade\s+consumidora|instala[çc][ãa]o)\s*[:\.]?\s*([\d\./-]+)',
+    
+    # Formatos específicos (Ex: 10/532723-4 ou 10/5202-7)
+    r'(\d{2}/\d{4,7}-\d)',
+    
+    # Sequências de dígitos (fallback)
+    r'(\d{10})',  # Sequência de 10 dígitos (comum em UCs)
 ]
 
 # Padrões para Valores Monetários
 VALUE_PATTERNS = {
-    # Fatura: Busca por "Total a pagar" ou similares
-    'fatura_total': r'(?:Total\s+a\s+pagar|Valor\s+a\s+Pagar|Valor\s+Total|Total\s+da\s+Conta)[\s\S]{0,50}?R\$\s*([\d\.,]+)',
+    # Fatura: Busca por "Total a pagar" (EGS específico)
+    'fatura_total': r'Total\s+a\s+pagar\s*\n?\s*R\$\s*([\d\.,]+)',
+    'fatura_total_alt': r'(?:Valor\s+a\s+Pagar|Valor\s+Total|Total\s+da\s+Conta)[\s\S]{0,50}?R\$\s*([\d\.,]+)',
     
-    # Boleto: Busca por campo "Valor do Documento"
-    'boleto_documento': r'(?:=\s*)?Valor\s*do\s*Documento[\s\S]{0,20}?R\$\s*([\d\.,]+)',
+    # Boleto: Busca por campo "Valor do Documento" (mais flexível)
+    'boleto_documento': r'\(=\)\s*Valor\s+do\s+Documento\s*\n[\s\S]{0,100}?R?\$?\s*([\d\.,]+)',
+    'boleto_documento_alt': r'Valor\s+do\s+Documento[\s\S]{0,50}?R\$\s*([\d\.,]+)',
     
     # Boleto: Linha Digitável (Captura sequências longas de números separadas por espaço ou ponto)
     # Ex: 52990.00108 90001.415851 ...
