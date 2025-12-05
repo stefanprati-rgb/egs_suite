@@ -45,18 +45,7 @@ def extrair_valor_boleto(texto: str, nome_arquivo: str = "") -> Optional[float]:
             return valor
 
     # 2. Tentativa via Linha Digitável (Mais robusta para layouts ruins)
-    # Remove quebras de linha para unir números que podem estar quebrados visualmente
-    texto_continuo = texto.replace('\n', ' ').replace('\r', '')
-    
-    # Procura por sequências longas de números que parecem linha digitável
-    # Removemos pontos e espaços para facilitar a busca genérica
     numeros_apenas = re.sub(r'[^\d]', '', texto)
-    
-    # Linha digitável padrão tem 47 ou 48 dígitos (com ou sem os dígitos verificadores expandidos)
-    # O valor está sempre nos últimos 10 dígitos da sequência de 44 caracteres do código de barras real,
-    # ou no final da linha digitável.
-    
-    # Padrão simples: Procurar sequência de 44 a 48 dígitos
     match_barras = re.search(r'(\d{44,48})', numeros_apenas)
     
     if match_barras:
@@ -73,3 +62,21 @@ def extrair_valor_boleto(texto: str, nome_arquivo: str = "") -> Optional[float]:
             
     log.warning(f"[VALOR_BOLETO] Falha ao extrair valor em {nome_arquivo}")
     return None
+
+def analisar_valores_pdf(texto: str, nome_arquivo: str = "", tipo: str = "fatura") -> dict:
+    """
+    Analisa os valores encontrados para diagnóstico visual na interface.
+    """
+    # Encontrar todos os valores R$ para mostrar possíveis candidatos
+    valores_rs = re.findall(r'R\$\s*([\d\.,]+)', texto)
+    
+    analise = {
+        'arquivo': nome_arquivo,
+        'tipo': tipo,
+        'valores_rs': valores_rs[:5], # Top 5 valores encontrados
+        'tem_total_pagar': bool(re.search(VALUE_PATTERNS['fatura_total'], texto, re.IGNORECASE)),
+        'tem_valor_documento': bool(re.search(VALUE_PATTERNS['boleto_documento'], texto, re.IGNORECASE)),
+        'tem_linha_digitavel': bool(re.search(r'\d{40,}', re.sub(r'[^\d]', '', texto)))
+    }
+    
+    return analise

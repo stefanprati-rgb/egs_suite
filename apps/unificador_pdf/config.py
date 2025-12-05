@@ -1,6 +1,6 @@
 """
 Configurações e constantes do Unificador.
-Define os padrões regex para extração de dados.
+Define os padrões regex para extração de dados e estilos visuais.
 """
 
 # Configurações da janela (Visual)
@@ -27,6 +27,16 @@ COLORS = {
     'text': '#1e293b',
     'text_light': '#64748b',
     'disabled': '#9ca3af',
+}
+
+# Fontes (Restauradas)
+FONTS = {
+    'title': ('Segoe UI', 18, 'bold'),
+    'subtitle': ('Segoe UI', 10),
+    'heading': ('Segoe UI', 11, 'bold'),
+    'body': ('Segoe UI', 10),
+    'body_bold': ('Segoe UI', 10, 'bold'),
+    'small': ('Segoe UI', 9),
 }
 
 # Clientes conhecidos

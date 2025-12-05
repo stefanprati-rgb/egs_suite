@@ -9,6 +9,8 @@ from ..logging_utils import get_logger
 
 def normalizar_uc(uc_raw: str) -> str:
     """Remove caracteres não numéricos para comparação."""
+    if not uc_raw:
+        return ""
     return re.sub(r'[^\d]', '', uc_raw)
 
 def extrai_uc(nome_arquivo: str) -> Optional[str]:
@@ -35,10 +37,8 @@ def extrai_uc_do_texto(texto: str, nome_arquivo: str = "") -> Optional[str]:
         matches = re.finditer(padrao, texto, re.IGNORECASE)
         for match in matches:
             uc_encontrada = match.group(1)
-            # Limpa para verificar se é válida
             uc_limpa = normalizar_uc(uc_encontrada)
             
-            # Validação básica: UCs geralmente têm entre 6 e 12 dígitos
             if 6 <= len(uc_limpa) <= 12:
                 log.debug(f"[UC_TEXTO] Encontrada no texto: {uc_limpa} (Raw: {uc_encontrada})")
                 return uc_limpa
@@ -53,3 +53,29 @@ def extrai_referencia(texto: str, nome_arquivo: str = "") -> Optional[str]:
     if match:
         return f"{match.group(1).lower()}/{match.group(2)}"
     return None
+
+def analisar_texto_pdf(texto: str, nome_arquivo: str = "") -> dict:
+    """
+    Analisa o texto do PDF e retorna informações de diagnóstico.
+    Utilizado pela interface para mostrar status do arquivo.
+    """
+    log = get_logger()
+    
+    # Busca rápida por padrões para o diagnóstico
+    possiveis_ucs = []
+    for p in UC_PATTERNS:
+        found = re.findall(p, texto, re.IGNORECASE)
+        possiveis_ucs.extend(found[:2]) # Pega os 2 primeiros de cada padrão
+
+    analise = {
+        'arquivo': nome_arquivo,
+        'tamanho_texto': len(texto),
+        'linhas': texto.count('\n'),
+        'tem_unidade_consumidora': 'unidade' in texto.lower() and 'consumidora' in texto.lower(),
+        'tem_instalacao': 'instala' in texto.lower(),
+        'tem_valor_rs': 'r$' in texto.lower(),
+        'possiveis_ucs': [normalizar_uc(u) for u in possiveis_ucs if u],
+    }
+    
+    log.info(f"[ANÁLISE] {nome_arquivo}: {analise['tamanho_texto']} chars, UCs={analise['possiveis_ucs']}")
+    return analise
